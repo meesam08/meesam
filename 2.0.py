@@ -1,11 +1,11 @@
 while True:
 	try:
-		t1=int(input())
+		d1=int(input())
 		break
 	except:
 		print('invalid')
 		break
-if t1%400==0 or t1%4==0 and t1%100!=0:
+if d1%400==0 or d1%4==0 and d1%100!=0:
 	print('yes')
 else:
 	print('no')
