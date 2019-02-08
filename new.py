@@ -5,7 +5,7 @@ while True:
 		b=int(b)
 		break
 	except:
-		print("Invalid input")
+		print("Invalid")
 		break
 d=1
 for x in range(b):
